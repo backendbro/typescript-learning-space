@@ -12,12 +12,23 @@ let myObj = {
     age: 32
 };
 let evh = {
-    name: "Eddie",
+    name: "John Doe",
     active: false,
     albums: ["The Jiggy Boo", 12]
 };
 const greetGuitarist = (guitarist) => {
-    return `Hello ${guitarist.name}`;
+    if (guitarist.name) {
+        return `Hello ${guitarist.name.toUpperCase()}`;
+    }
+    return `Hello world`;
 };
 const result = greetGuitarist(evh);
 console.log(result);
+var Grade;
+(function (Grade) {
+    Grade[Grade["U"] = 0] = "U";
+    Grade[Grade["D"] = 1] = "D";
+    Grade[Grade["C"] = 2] = "C";
+    Grade[Grade["B"] = 3] = "B";
+    Grade[Grade["A"] = 4] = "A";
+})(Grade || (Grade = {}));

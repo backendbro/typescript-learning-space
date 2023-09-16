@@ -46,4 +46,6 @@ console.log(result)
 
 
 // ENUM 
-
+enum Grade {
+    U, D, C, B, A 
+}
