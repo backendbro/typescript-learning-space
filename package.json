@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/backendbro/typescript-learning-space/issues"
   },
-  "homepage": "https://github.com/backendbro/typescript-learning-space#readme"
+  "homepage": "https://github.com/backendbro/typescript-learning-space#readme",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
 }
